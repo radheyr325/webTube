@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cz.martykan.webtube"
+4    android:installLocation="auto"
+5    android:versionCode="13"
+6    android:versionName="1.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="23" />
+10-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:6:5-68
+13-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:6:22-65
+14
+15    <application
+15-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:8:5-79:19
+16        android:allowBackup="true"
+16-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:9:9-35
+17        android:debuggable="true"
+18        android:hardwareAccelerated="true"
+18-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:10:9-43
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:12:9-41
+21        android:supportsRtl="true"
+21-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity
+24-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:15:9-72:20
+25            android:name="cz.martykan.webtube.MainActivity"
+25-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:16:13-41
+26            android:alwaysRetainTaskState="true"
+26-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:17:13-49
+27            android:configChanges="orientation|screenSize"
+27-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:18:13-59
+28            android:launchMode="singleTask" >
+28-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:19:13-44
+29            <intent-filter>
+29-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:23:17-77
+32-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34            <intent-filter>
+34-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:25:13-71:29
+35                <action android:name="android.intent.action.VIEW" />
+35-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:26:17-69
+35-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:28:17-76
+37-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:28:27-73
+38                <category android:name="android.intent.category.BROWSABLE" />
+38-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:29:17-78
+38-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:29:27-75
+39
+40                <data android:scheme="http" />
+40-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+40-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:23-44
+41                <data android:scheme="https" />
+41-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+41-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:23-44
+42                <data android:host="youtube.com" />
+42-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+42-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+43                <data android:host="youtube.com.tr" />
+43-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+43-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+44                <data android:host="youtube.co.uk" />
+44-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+44-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+45                <data android:host="m.youtube.com" />
+45-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+45-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+46                <data android:host="www.youtube.com" />
+46-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+46-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+47                <data android:host="www.youtube.com.tr" />
+47-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+47-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+48                <data android:host="www.youtube.co.uk" />
+48-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+48-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+49                <data android:host="youtu.be" />
+49-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+49-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+50                <data android:host="au.youtube.com" />
+50-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+50-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+51                <data android:host="br.youtube.com" />
+51-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+51-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+52                <data android:host="ca.youtube.com" />
+52-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+52-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+53                <data android:host="cz.youtube.com" />
+53-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+53-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+54                <data android:host="de.youtube.com" />
+54-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+54-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+55                <data android:host="dk.youtube.com" />
+55-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+55-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+56                <data android:host="es.youtube.com" />
+56-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+56-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+57                <data android:host="fi.youtube.com" />
+57-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+57-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+58                <data android:host="fr.youtube.com" />
+58-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+58-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+59                <data android:host="gr.youtube.com" />
+59-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+59-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+60                <data android:host="hk.youtube.com" />
+60-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+60-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+61                <data android:host="hu.youtube.com" />
+61-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+61-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+62                <data android:host="il.youtube.com" />
+62-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+62-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+63                <data android:host="in.youtube.com" />
+63-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+63-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+64                <data android:host="it.youtube.com" />
+64-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+64-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+65                <data android:host="jp.youtube.com" />
+65-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+65-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+66                <data android:host="kr.youtube.com" />
+66-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+66-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+67                <data android:host="mx.youtube.com" />
+67-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+67-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+68                <data android:host="nl.youtube.com" />
+68-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+68-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+69                <data android:host="nz.youtube.com" />
+69-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+69-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+70                <data android:host="no.youtube.com" />
+70-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+70-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+71                <data android:host="pl.youtube.com" />
+71-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+71-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+72                <data android:host="ru.youtube.com" />
+72-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+72-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+73                <data android:host="tr.youtube.com" />
+73-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+73-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+74                <data android:host="tw.youtube.com" />
+74-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+74-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+75                <data android:host="se.youtube.com" />
+75-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+75-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+76                <data android:host="uk.youtube.com" />
+76-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+76-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+77                <data android:host="za.youtube.com" />
+77-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:31:17-47
+77-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:34:23-49
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:73:9-183
+81            android:name="cz.martykan.webtube.NotificationCloser"
+81-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:73:19-53
+82            android:excludeFromRecents="true"
+82-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:73:78-111
+83            android:taskAffinity=""
+83-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:73:54-77
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:73:112-171
+85
+86        <receiver android:name="cz.martykan.webtube.MediaButtonIntentReceiver" >
+86-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:74:9-78:20
+86-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:74:19-60
+87            <intent-filter android:priority="100000" >
+87-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:75:13-77:29
+87-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:75:28-53
+88                <action android:name="android.intent.action.MEDIA_BUTTON" />
+88-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:76:17-77
+88-->C:\Users\radhe\Desktop\webTube player\app\src\main\AndroidManifest.xml:76:25-74
+89            </intent-filter>
+90        </receiver>
+91    </application>
+92
+93</manifest>

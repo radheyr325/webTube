@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <string name="acceptCookies">Cookies akzeptieren</string>
+    <string name="addPage">Diese Seite hinzufügen</string>
+    <string name="bookmarks">Lesezeichen</string>
+    <string name="castToKodi">Mit Kodi abspielen</string>
+    <string name="disableTor">Tor deaktivieren</string>
+    <string name="download">Herunterladen</string>
+    <string name="enable">Aktivieren</string>
+    <string name="enableTor">Tor aktivieren</string>
+    <string name="error">Oje!</string>
+    <string name="errorNoInternet">Oje! Du hast momentan keine Internetverbinding.</string>
+    <string name="errorTor">Oje! Die Verbindung zum Tor-Netzwerk funktioniert nicht richtig.</string>
+    <string name="error_no_video">Kein Video da!</string>
+    <string name="error_select_video_and_retry">Bitte wähle ein Video aus und versuche es erneut.</string>
+    <string name="home">Start</string>
+    <string name="homePageHelp">Halte den Start-Knopf gedrückt um die aktuelle Seite als Startseite festzulegen.</string>
+    <string name="homePageSet">Diese Seite ist jetzt deine Startseite.</string>
+    <string name="menu">Menü</string>
+    <string name="openInBrowser">Im Browser öffnen</string>
+    <string name="playInBackground">Im Hintergrund abspielen</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="removePage">Diese Seite entfernen</string>
+    <string name="set_as_home">Als Startseite festlegen</string>
+    <string name="share">Teilen</string>
+    <string name="share_with">Teilen mit…</string>
+    <string name="torWarning">Unverantwortliches Verhalten bei der Verwendung von Tor, wie etwa das Anmelden bei YouTube, wird deinen Internetverkehr deanonymisieren und kann zu schweren Schäden führen.</string>
+</resources>
